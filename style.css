@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto&display=swap');
+
+:root {
+    --bgcolor: #f1f1f1;
+    --leftColor: #fff;
+    --rightTopColor: #35869A;
+    --rightBottomColor: #42A8C0;
+}
+
 .bodyy {
     background-color: #f1f1f1;
     padding-top: 5%;
@@ -23,7 +31,7 @@ h4 {
 h3 {
     font-size: 1.3rem;
     opacity: 85%;
-    color: #2D7788;
+    color: #35869A;
     font-weight: 400;
 }
 
@@ -69,8 +77,10 @@ p, li {
     }
 }
 
-
-
+hr {
+    margin: auto;
+    color: #35869A;
+}
 /* div.right > a:link, a:visited {
     color: #fff;
     text-decoration: none;
@@ -135,12 +145,13 @@ p, li {
 
 .links3:hover {
     text-decoration: none;
-    color: #2D7788;
+    color: #35869A;
 }
 
 .university {
     margin-top: -1%;
     font-size: 0.8rem;
+    color: #35869A;
 }
 
 .education .year {
@@ -183,4 +194,13 @@ p, li {
 
 .awardText {
     margin-top: -1%;
+}
+
+.cardss {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-bottom .university {
+    color: #f1f1f1;
 }

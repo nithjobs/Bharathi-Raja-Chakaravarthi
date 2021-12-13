@@ -4,8 +4,8 @@
 :root {
     --bgcolor: #f1f1f1;
     --leftColor: #fff;
-    --rightTopColor: #009999;
-    --rightBottomColor: #00cccc;
+    --rightTopColor: #FE6F27;
+    --rightBottomColor: #504645;
 }
 
 .bodyy {
@@ -48,7 +48,7 @@ p, li {
 }
 
 .roleat {
-    margin-top: -3%;
+    margin-top: -1%;
     font-size: 0.8rem;
 }
 .container {
@@ -57,9 +57,10 @@ p, li {
 }
 
 .right-top {
-    margin: 0 -12px;
+    margin: 0 0px;
     padding: 1rem 2rem;
     background-color: var(--rightTopColor);
+    color: var(--leftColor)
 }
 
 .right, .left {
@@ -90,6 +91,10 @@ hr {
     padding-top: 5%;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.right {
+    padding-top: 4%;
 }
 
 .academic-profile p {
